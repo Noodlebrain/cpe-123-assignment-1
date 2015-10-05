@@ -1,0 +1,11 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname Assignment1) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+(define (draw_world w)
+  (overlay
+   (text ("1. \n 2. ") 30 "black")
+   (empty-scene 500 400)))
+(big-bang 0
+          [to-draw draw_world])
+         
+
