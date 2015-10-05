@@ -1,3 +1,5 @@
+*VIDEO DEMONSTRATION IN REPOSITORY*
+
 The samples for this soundboard are sounds in the rsound library,
 as well as ones used in prior labs. They were chosen for convenience's sake.
 
